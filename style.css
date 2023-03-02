@@ -9,3 +9,9 @@ body  {
     margin: 0;
     padding: 0;
 }
+
+body::before {
+    background: url("universe_bg.jpg") no-repeat center center fixed;
+    background-size: cover;
+    opacity: 0.5;
+}
