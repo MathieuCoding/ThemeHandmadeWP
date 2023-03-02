@@ -8,7 +8,13 @@
 //     block_template_part('footer');
 // }
 
-get_header();
+get_header(); ?>
 
 
-get_footer();
+<div class="container">
+    <h1 class="text-center">My universe</h1>
+</div>
+
+
+
+<?php get_footer(); ?>
