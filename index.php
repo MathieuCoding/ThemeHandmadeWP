@@ -3,8 +3,6 @@
     get_header();
 ?>
 
-<p>This is my front page</p>
-
 <?php
 if ( have_posts() ) :
     while ( have_posts() ) : the_post();?>
