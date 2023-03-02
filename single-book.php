@@ -3,7 +3,7 @@
     get_header();
 ?>
 
-<p>This is my front page</p>
+<p>This is my single page</p>
 
 <?php
 if ( have_posts() ) :

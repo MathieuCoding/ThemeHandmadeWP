@@ -7,4 +7,6 @@
     <title>Our universe</title>
     <?php wp_head(); ?>
 </head>
+    <!-- Afficher le menu WordPress -->
+    <?php wp_nav_menu(); ?>
 <body>
